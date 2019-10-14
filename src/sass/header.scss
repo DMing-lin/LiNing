@@ -2,7 +2,6 @@ header {
     width: 100%;
     height: 23px;
     padding-top: 7px;
-    font-family: 微软雅黑;
     font-size: 12px;
     text-align: center;
 
@@ -40,8 +39,52 @@ header {
         margin: 0 10px;
     }
 }
-nav{
+
+nav {
     width: 100%;
-    height: 50px;
+    height: 35px;
+    padding-top: 15px;
     background: #020202;
+
+    .navR {
+        float: right;
+        margin-right: 50px;
+
+        >div {
+            float: left;
+        }
+
+        .hot {
+            display: block;
+            width: 60px;
+            height: 45px;
+            background: url(../img/fax_hot.gif) no-repeat;
+            position: relative;
+            top: -22px;
+            margin-right: 24px;
+        }
+
+        .search {
+            width: 205px;
+            height: 21px;
+            background: #ffffff url(../img/search.png) no-repeat right;
+            border-radius: 3px;
+            border: 1px solid #D1D1CF;
+            padding-top: 2px;
+            margin-top: -2px;
+
+            input {
+                width: 165px;
+                height: 18px;
+                margin-left: 5px;
+            }
+
+            span>a {
+                display: block;
+                width: 20px;
+                height: 20px;
+                float: right;
+            }
+        }
+    }
 }
