@@ -8,18 +8,18 @@ class Manager {
         // this.eventHandler();
     }
     renderUI() {
-        let navLi = this.renderNav();
+        let navLi = this.renderNavLi();
         let navList = this.renderNavList();
+        $(".nav").append($(navLi));
         $(".navListWrapper").html($(navList));
     }
-    renderNav() {
-        let navLi = "";
+    renderNavLi() {
+        let resNavLi = "";
         for (let i = 0, len = this.data.tabs.length; i < len; i++) {
-            navLi += `<li><a href=""><span>${this.data.tabs[i]}</span><div class="sanjiao"></div></a></li>`;
-            console.log(navLi);
-
-
+            resNavLi += `<li><span class="shu"></span><a href=""><span>${this.data.tabs[i]}</span><div class="sanjiao"></div></a></li>`;
+            // console.log(resNavLi);
         }
+        return resNavLi;
     }
     renderNavList() {
         let res = "";
@@ -38,7 +38,6 @@ class Manager {
 
             res += `<div class="navList">${res1}</div>`
             // console.log(res);
-
         };
         return res;
     }
