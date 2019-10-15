@@ -5,12 +5,21 @@ class Manager {
     }
     init() {
         this.renderUI();
-        // this.renderNavList();
         // this.eventHandler();
     }
     renderUI() {
-        let a = this.renderNavList();
-        $(".navListWrapper").append($(a));
+        let navLi = this.renderNav();
+        let navList = this.renderNavList();
+        $(".navListWrapper").html($(navList));
+    }
+    renderNav() {
+        let navLi = "";
+        for (let i = 0, len = this.data.tabs.length; i < len; i++) {
+            navLi += `<li><a href=""><span>${this.data.tabs[i]}</span><div class="sanjiao"></div></a></li>`;
+            console.log(navLi);
+
+
+        }
     }
     renderNavList() {
         let res = "";
@@ -23,13 +32,12 @@ class Manager {
                     res2 += `<li><a href="">${ele.list2[k]}</a></li>`
                     // console.log(res2);                       
                 }
-                res1 += `<ul><li class="big"><a href="">${ele.types}</a></li>${res2}</ul>`
+                res1 += `<ul><li><a class="big" href="">${ele.types}</a></li>${res2}</ul>`
                 // console.log(res1);
             });
 
             res += `<div class="navList">${res1}</div>`
-            console.log(res);
-            // return res;
+            // console.log(res);
 
         };
         return res;

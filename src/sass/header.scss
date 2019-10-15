@@ -99,35 +99,38 @@ nav {
 
 .navListWrapper {
     width: 100%;
-    height: 358px;
-    // background: #F6F6F6;
-    background: yellowgreen;
-    position: relative;
-    // top: 50px;
-    // display: none;
+    height: 310px;
+    padding-top: 45px;
+    background: #F6F6F6;
+    display: none;
 
     .navList {
-        position: absolute;
-        left: 50%;
-        top: 50%;
-        transform: translate(-50%, -50%);
+        text-align: center;
 
         ul {
-            // display: block;
-            // margin: 0 auto;
-            width: 196px;
-            height: 240px;
-            background: orange;
+            width: 175px;
+            height: 280px;
+            padding-left: 20px;
+            border-left: 1px solid #BFBFBF;
+            border-right: 1px solid #BFBFBF;
+            display: inline-block;
+            vertical-align: top;
+            float: none;
 
             li {
+                text-align: left;
                 float: none;
+
+                a {
+                    line-height: 20px;
+                }
+
+                .big {
+                    font-size: 30px;
+                    color: #EE2737;
+                    line-height: 46px;
+                }
             }
         }
-
-        a {
-            line-height: 20px;
-        }
     }
-
-
 }

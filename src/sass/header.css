@@ -99,28 +99,38 @@ nav .navR .search span > a {
 
 .navListWrapper {
   width: 100%;
-  height: 358px;
-  background: yellowgreen;
-  position: relative;
+  height: 310px;
+  padding-top: 45px;
+  background: #F6F6F6;
+  display: none;
 }
 
 .navListWrapper .navList {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
+  text-align: center;
 }
 
 .navListWrapper .navList ul {
-  width: 196px;
-  height: 240px;
-  background: orange;
-}
-
-.navListWrapper .navList ul li {
+  width: 175px;
+  height: 280px;
+  padding-left: 20px;
+  border-left: 1px solid #BFBFBF;
+  border-right: 1px solid #BFBFBF;
+  display: inline-block;
+  vertical-align: top;
   float: none;
 }
 
-.navListWrapper .navList a {
+.navListWrapper .navList ul li {
+  text-align: left;
+  float: none;
+}
+
+.navListWrapper .navList ul li a {
   line-height: 20px;
+}
+
+.navListWrapper .navList ul li .big {
+  font-size: 30px;
+  color: #EE2737;
+  line-height: 46px;
 }
