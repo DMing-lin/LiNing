@@ -47,6 +47,12 @@ nav {
   background-color: #020202;
 }
 
+nav .nav .logo {
+  width: 54px;
+  height: 18px;
+  background: url(../img/logo.png) no-repeat center;
+}
+
 nav .nav .shu {
   width: 1px;
   height: 20px;
@@ -70,19 +76,13 @@ nav .nav a .sanjiao {
   vertical-align: middle;
 }
 
-nav .nav a:hover {
+nav .nav .active a {
   color: #EE2737;
   background-color: #F6F6F6;
 }
 
-nav .nav a:hover .sanjiao {
+nav .nav .active a .sanjiao {
   background-position: right;
-}
-
-nav .nav .logo {
-  width: 54px;
-  height: 16px;
-  background: url(../img/logo.png) no-repeat center;
 }
 
 nav .navR {
@@ -138,6 +138,7 @@ nav .navR .search span > a {
 
 .navListWrapper .navList {
   text-align: center;
+  display: none;
 }
 
 .navListWrapper .navList ul {

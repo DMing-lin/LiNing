@@ -47,6 +47,12 @@ nav {
     background-color: #020202;
 
     .nav {
+        .logo {
+            width: 54px;
+            height: 18px;
+            background: url(../img/logo.png) no-repeat center;
+        }
+
         .shu {
             width: 1px;
             height: 20px;
@@ -68,21 +74,15 @@ nav {
                 display: inline-block;
                 vertical-align: middle;
             }
-
-            &:hover {
-                color: #EE2737;
-                background-color: #F6F6F6;
-
-                .sanjiao {
-                    background-position: right;
-                }
-            }
         }
 
-        .logo {
-            width: 54px;
-            height: 16px;
-            background: url(../img/logo.png) no-repeat center;
+        .active a {
+            color: #EE2737;
+            background-color: #F6F6F6;
+
+            .sanjiao {
+                background-position: right;
+            }
         }
     }
 
@@ -139,6 +139,7 @@ nav {
 
     .navList {
         text-align: center;
+        display: none;
 
         ul {
             width: 175px;

@@ -5,7 +5,7 @@ class Manager {
     }
     init() {
         this.renderUI();
-        // this.eventHandler();
+        this.eventHandler();
     }
     renderUI() {
         let navLi = this.renderNavLi();
@@ -13,6 +13,7 @@ class Manager {
         $(".nav").append($(navLi));
         $(".navListWrapper").html($(navList));
     }
+
     renderNavLi() {
         let resNavLi = "";
         for (let i = 0, len = this.data.tabs.length; i < len; i++) {
@@ -40,5 +41,20 @@ class Manager {
             // console.log(res);
         };
         return res;
+    }
+
+    eventHandler() {
+        $(".nav li").hover(function () {
+            $(this).toggleClass("active");
+            let index = $(this).index();
+
+            $(".navListWrapper").toggleClass("block");
+            $(".navListWrapper").children().eq(index - 1).toggleClass("block");
+        })
+        // self.root.find(".navListWrapper").eq(index).addClass("current").siblings().removeClass("current");
+
+        // $(this).css("background", self.data.color).siblings().css("background", "#fff");
+
+
     }
 }
