@@ -5,7 +5,4 @@ $(() => {
             manager1.init();
         });
     });
-    // var manager1 = new Manager()
-    // manager1.init()
 })
-

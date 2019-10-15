@@ -54,14 +54,6 @@ nav .nav a {
   color: #ffffff;
 }
 
-nav .navList {
-  width: 100%;
-  height: 358px;
-  background: yellowgreen;
-  position: relative;
-  top: 50px;
-}
-
 nav .navR {
   float: right;
   margin-right: 50px;
@@ -103,4 +95,32 @@ nav .navR .search span > a {
   width: 20px;
   height: 20px;
   float: right;
+}
+
+.navListWrapper {
+  width: 100%;
+  height: 358px;
+  background: yellowgreen;
+  position: relative;
+}
+
+.navListWrapper .navList {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.navListWrapper .navList ul {
+  width: 196px;
+  height: 240px;
+  background: orange;
+}
+
+.navListWrapper .navList ul li {
+  float: none;
+}
+
+.navListWrapper .navList a {
+  line-height: 20px;
 }
