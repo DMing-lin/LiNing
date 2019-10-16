@@ -1,0 +1,184 @@
+main {
+    section {
+        width: 100%;
+        background-color: rgb(238, 239, 239);
+        padding-bottom: 80px;
+        min-width: 1260px;
+        font-family: 微软雅黑;
+
+        .registerWrapper {
+            width: 990px;
+            margin: 0 auto;
+            background-color: #fff;
+            border-radius: 7px;
+
+            h3 {
+                display: block;
+                height: 78px;
+                line-height: 78px;
+                margin: 0 90px 18px;
+                border-bottom: 1px dashed #e2e2e2;
+                text-align: center;
+                font-weight: bold;
+                font-size: 22px;
+            }
+
+            .register {
+                margin: 0 auto;
+                width: 375px;
+
+                .line {
+                    position: relative;
+
+                    //检验密码强弱
+                    .pwdSafety {
+                        position: absolute;
+                        top: 16px;
+                        right: 5px;
+
+                        .safetyName {
+                            margin-right: 4px;
+                            color: #808080;
+                        }
+
+                        .safetyRank {
+                            display: inline-block;
+                            width: 22px;
+                            height: 8px;
+                            background-color: #a2a2a2;
+                            vertical-align: middle;
+
+                            &:nth-child(2) {
+                                background-color: rgb(238, 39, 55)
+                            }
+                        }
+                    }
+
+                    //获取动态密码
+                    #smsSend {
+                        width: 116px;
+                        height: 45px;
+                        position: absolute;
+                        right: 0;
+                        top: 0;
+                        background-color: #eeefef;
+                        border: 0 none;
+                        font-size: 15px;
+                        line-height: 45px;
+                        text-align: center;
+                        cursor: pointer;
+                    }
+
+                    //阅读服务按钮
+                    .checkbox {
+                        float: left;
+                        margin-left: 5px;
+                    }
+
+                    //注册按钮
+                    .registerBtn {
+                        display: block;
+                        width: 374px;
+                        height: 45px;
+                        color: #FFFFFF;
+                        background-color: rgb(221, 221, 221);
+                        cursor: auto;
+                        font-size: 18px;
+                        line-height: 45px;
+                        text-align: center;
+                    }
+                }
+
+                .tongyi {
+                    padding: 20px 0;
+
+                    >p {
+                        display: inline-block;
+                        vertical-align: top;
+
+                        a {
+                            color: #0778f9;
+                        }
+
+                        span {
+                            color: rgb(238, 39, 55);
+                        }
+                    }
+                }
+
+                .lingquan {
+                    display: block;
+                    width: 190px;
+                    height: 40px;
+                    line-height: 40px;
+                    margin: 20px auto;
+                    text-align: right;
+                    background: url(../img/20yuan.png) no-repeat;
+                    background-size: 40px;
+                    font-weight: bold;
+                    color: rgb(238, 39, 55);
+                }
+
+                >P {
+                    margin-bottom: 18px;
+                    color: #808080;
+                }
+
+                .otherLogin {
+                    padding-bottom: 20px;
+
+                    a {
+                        display: inline-block;
+                        width: 50px;
+                        height: 50px;
+                        background: url(../img/login.png) no-repeat;
+
+                        &:hover {
+                            background: url(../img/login_active.png);
+                        }
+
+                        &:nth-child(2) {
+                            background-position: -106px;
+
+                            &:hover {
+                                background-position: -106px;
+                            }
+                        }
+
+                        &:nth-child(3) {
+                            background-position: -214;
+
+                            &:hover {
+                                background-position: -214;
+                            }
+                        }
+                    }
+                }
+
+                .ipt {
+                    margin: 0 auto 10px;
+                    width: 374px;
+                    height: 45px;
+                    color: #333;
+                    border: 1px solid #e2e2e2;
+                    box-sizing: border-box;
+                    position: relative;
+                    padding-left: 16px;
+                    font-size: 15px;
+                }
+
+                //提示错误消息
+                .tips {
+                    padding-top: 4px;
+                    padding-left: 44px;
+                    margin: 0 auto 4px;
+                    background: #fff7e3 url(../img/error.png) no-repeat 10px 13px;
+                    border-color: #f2ac00;
+                    color: #808080;
+                    font-size: 12px;
+                    display: none;
+                }
+            }
+        }
+    }
+}
