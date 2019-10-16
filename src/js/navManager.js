@@ -44,17 +44,23 @@ class Manager {
     }
 
     eventHandler() {
-        $(".nav li").hover(function () {
-            $(this).toggleClass("active");
+        $(".nav li").mouseenter(function () {
+            $(this).addClass("active").siblings().removeClass("active");
             let index = $(this).index();
 
-            $(".navListWrapper").toggleClass("block");
-            $(".navListWrapper").children().eq(index - 1).toggleClass("block");
+            $(".navListWrapper").addClass("block").siblings().removeClass("block");
+            $(".navListWrapper").children().eq(index - 1).addClass("block").siblings().removeClass("block");
         })
-        // self.root.find(".navListWrapper").eq(index).addClass("current").siblings().removeClass("current");
 
-        // $(this).css("background", self.data.color).siblings().css("background", "#fff");
+        $(".nav li").last().addClass("lastli");
+        $(".navListWrapper,.lastli").mouseleave(function () {
+            $(".nav li").removeClass("active");
+            $(".navListWrapper").removeClass("block");
+        })
 
-
+        $("header").mouseenter(function () {
+            $(".nav li").removeClass("active");
+            $(".navListWrapper").removeClass("block");
+        })
     }
 }
