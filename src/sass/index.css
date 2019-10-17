@@ -1,0 +1,15 @@
+.banner .carousel-indicators li {
+  width: 240px;
+  height: 20px;
+  color: #ffffff;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.banner .carousel-indicators li .active {
+  background-color: rgba(238, 39, 55, 0.8);
+}
+
+.banner a[class^="carousel-control"] span {
+  width: 50px;
+  height: 50px;
+}
