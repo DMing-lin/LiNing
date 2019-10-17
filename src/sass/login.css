@@ -1,0 +1,147 @@
+@charset "UTF-8";
+main section {
+  width: 100%;
+  background-color: #eeefef;
+  padding-bottom: 80px;
+  min-width: 1260px;
+  font-family: 微软雅黑;
+}
+
+main section .loginWrapper {
+  width: 990px;
+  margin: 0 auto;
+  background-color: #fff;
+  border-radius: 7px;
+}
+
+main section .loginWrapper h3 {
+  display: block;
+  height: 78px;
+  line-height: 78px;
+  margin: 0 90px 5px;
+  border-bottom: 1px dashed #e2e2e2;
+  text-align: center;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+main section .loginWrapper .loginTabs {
+  width: 812px;
+  height: 60px;
+  margin: 0 auto;
+}
+
+main section .loginWrapper .loginTabs li {
+  width: 404px;
+  height: 55px;
+  color: #a9a9a9;
+  cursor: pointer;
+  line-height: 66px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 16px;
+  border-bottom: 5px solid #e2e2e2;
+  display: list-item;
+  margin-right: 2px;
+}
+
+main section .loginWrapper .loginTabs .active {
+  border-bottom-color: #EE2737;
+}
+
+main section .loginWrapper .login {
+  margin: 20px auto 0;
+  width: 375px;
+}
+
+main section .loginWrapper .login .loginBy {
+  display: none;
+}
+
+main section .loginWrapper .login .line {
+  margin-bottom: 20px;
+  position: relative;
+}
+
+main section .loginWrapper .login .line .ipt {
+  box-sizing: border-box;
+  border: 1px solid #e2e2e2;
+  width: 374px;
+  height: 45px;
+  line-height: 45px;
+  font-size: 15px;
+  padding-left: 16px;
+  color: #555;
+}
+
+main section .loginWrapper .login .line #captcha1,
+main section .loginWrapper .login .line #captcha2 {
+  position: absolute;
+  right: 5px;
+  top: 5px;
+}
+
+main section .loginWrapper .login .line .newUser {
+  float: right;
+}
+
+main section .loginWrapper .login .line .loginBtn {
+  display: block;
+  width: 374px;
+  height: 45px;
+  color: #FFFFFF;
+  background-color: #EE2737;
+  cursor: pointer;
+  font-size: 18px;
+  line-height: 45px;
+  text-align: center;
+}
+
+main section .loginWrapper .login .lingquan {
+  display: block;
+  width: 190px;
+  height: 40px;
+  line-height: 40px;
+  margin: 20px auto;
+  text-align: right;
+  background: url(../img/20yuan.png) no-repeat;
+  background-size: 40px;
+  font-weight: bold;
+  color: #ee2737;
+}
+
+main section .loginWrapper .login > P {
+  margin-bottom: 18px;
+  color: #808080;
+}
+
+main section .loginWrapper .login .otherLogin {
+  padding-bottom: 20px;
+}
+
+main section .loginWrapper .login .otherLogin a {
+  display: inline-block;
+  width: 50px;
+  height: 49px;
+  background: url(../img/login.png) no-repeat;
+}
+
+main section .loginWrapper .login .otherLogin a:hover {
+  background: url(../img/login_active.png);
+}
+
+main section .loginWrapper .login .otherLogin a:nth-child(2) {
+  background-position: -106px;
+}
+
+main section .loginWrapper .login .otherLogin a:nth-child(2):hover {
+  background-position: -106px;
+}
+
+main section .loginWrapper .login .otherLogin a:nth-child(3) {
+  background-position: -214;
+}
+
+main section .loginWrapper .login .otherLogin a:nth-child(3):hover {
+  background-position: -214;
+}

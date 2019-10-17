@@ -161,10 +161,6 @@ textarea::-webkit-input-placeholder {
     color: #ccc
 }
 
-.active {
-    color: #0db789 !important;
-}
-
 .flex-container {
     display: -webkit-box;
     display: -webkit-flex;
@@ -244,7 +240,6 @@ textarea::-webkit-input-placeholder {
 }
 
 .button {
-    background-color: #0db789;
     font-size: 18px;
     margin: 15px 5%;
     width: 90%;
@@ -252,13 +247,6 @@ textarea::-webkit-input-placeholder {
     line-height: 42px;
     border-radius: 5px;
     color: #fff
-}
-
-.button[disabled] {
-    color: #fff;
-    border-color: #fff;
-    background: #ddd url(../images/loading.gif) 95% center no-repeat;
-    background-size: 15px;
 }
 
 .button:active {

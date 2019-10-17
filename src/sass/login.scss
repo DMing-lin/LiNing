@@ -1,0 +1,152 @@
+main {
+    section {
+        width: 100%;
+        background-color: rgb(238, 239, 239);
+        padding-bottom: 80px;
+        min-width: 1260px;
+        font-family: 微软雅黑;
+
+        .loginWrapper {
+            width: 990px;
+            margin: 0 auto;
+            background-color: #fff;
+            border-radius: 7px;
+
+            h3 {
+                display: block;
+                height: 78px;
+                line-height: 78px;
+                margin: 0 90px 5px;
+                border-bottom: 1px dashed #e2e2e2;
+                text-align: center;
+                font-weight: bold;
+                font-size: 22px;
+            }
+
+            .loginTabs {
+                width: 812px;
+                height: 60px;
+                margin: 0 auto;
+
+                li {
+                    width: 404px;
+                    height: 55px;
+                    color: #a9a9a9;
+                    cursor: pointer;
+                    line-height: 66px;
+                    text-align: center;
+                    font-weight: bold;
+                    font-size: 16px;
+                    border-bottom: 5px solid #e2e2e2;
+                    display: list-item;
+                    margin-right: 2px;
+                }
+
+                .active {
+                    border-bottom-color: #EE2737;
+                }
+            }
+
+            .login {
+                margin: 20px auto 0;
+                width: 375px;
+
+                .loginBy {
+                    display: none;
+                }
+
+                .line {
+                    margin-bottom: 20px;
+                    position: relative;
+
+                    .ipt {
+                        box-sizing: border-box;
+                        border: 1px solid #e2e2e2;
+                        width: 374px;
+                        height: 45px;
+                        line-height: 45px;
+                        font-size: 15px;
+                        padding-left: 16px;
+                        color: #555;
+                    }
+
+                    //图形验证码 
+                    #captcha1,
+                    #captcha2 {
+                        position: absolute;
+                        right: 5px;
+                        top: 5px;
+                    }
+
+                    .newUser {
+                        float: right;
+                    }
+
+                    //登录按钮
+                    .loginBtn {
+                        display: block;
+                        width: 374px;
+                        height: 45px;
+                        color: #FFFFFF;
+                        background-color: #EE2737;
+                        cursor: pointer;
+                        font-size: 18px;
+                        line-height: 45px;
+                        text-align: center;
+                    }
+                }
+
+                .lingquan {
+                    display: block;
+                    width: 190px;
+                    height: 40px;
+                    line-height: 40px;
+                    margin: 20px auto;
+                    text-align: right;
+                    background: url(../img/20yuan.png) no-repeat;
+                    background-size: 40px;
+                    font-weight: bold;
+                    color: rgb(238, 39, 55);
+                }
+
+                >P {
+                    margin-bottom: 18px;
+                    color: #808080;
+                }
+
+                .otherLogin {
+                    padding-bottom: 20px;
+
+                    a {
+                        display: inline-block;
+                        width: 50px;
+                        height: 49px;
+                        background: url(../img/login.png) no-repeat;
+
+                        &:hover {
+                            background: url(../img/login_active.png);
+                        }
+
+                        &:nth-child(2) {
+                            background-position: -106px;
+
+                            &:hover {
+                                background-position: -106px;
+                            }
+                        }
+
+                        &:nth-child(3) {
+                            background-position: -214;
+
+                            &:hover {
+                                background-position: -214;
+                            }
+                        }
+                    }
+                }
+
+
+            }
+        }
+    }
+}

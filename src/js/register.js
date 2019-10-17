@@ -1,11 +1,11 @@
 $(() => {
 
     /* 测试数据 */
-    // $("#usernameID").val("ddd");
-    // $("#passwordA,#passwordB").val("123456");
-    // $("#phoneID").val("13809739550");
-    // $("#msgCode").val("999");
-    // $("#emailID").val("813656523@qq.com");
+    $("#usernameID").val("dddd");
+    $("#passwordA,#passwordB").val("123456");
+    $("#phoneID").val("13809739550");
+    $("#msgCode").val("999");
+    $("#emailID").val("813656523@qq.com");
 
     //验证用户名
     $("#usernameID").keyup(function () {
@@ -63,7 +63,7 @@ $(() => {
     captcha1.draw(document.querySelector('#captcha'), r => {
         console.log("验证码 = " + r);
         imgCode = r;
-        $("#imageCode").val(imgCode);
+        $("#captcha").prev().val(imgCode);
     });
 
     /* 给手机号码发送短信： */
@@ -126,36 +126,35 @@ $(() => {
             $(".tongyi").css("background-color", "#EEEFEF");
             return;
         }
-        // if (!$(".tips").hasClass("block")) return;
+        if ($(".tips").hasClass("block")) return;
 
-
-
-
+        console.log(111);
 
         // if ($(".form-group-error").length != 0) return;
 
 
         /* 发请求给服务器  注册： */
-        // $.ajax({
-        //     type: "post",
-        //     url: "../server/register.php",
-        //     data: `username=${$("#usernameID").val()}&password=${$("#passwordA").val()}&phone=${$("#phoneID").val()}`,
-        //     dataType: "json",
-        //     success: function (response) {
-        //         /* 注册成功： */
-        //         console.log(response, response.status);
+        $.ajax({
+            type: "post",
+            url: "../server/register.php",
+            data: `username=${$("#usernameID").val()}&password=${$("#passwordA").val()}&phone=${$("#phoneID").val()}&email=${$("#emailID").val()}`,
+            dataType: "json",
+            success: function (response) {
+                /* 注册成功： */
+                console.log(response, response.status);
 
-        //         if (response.status == "ok") {
-        //             console.log("++++");
+                if (response.status == "ok") {
+                    console.log("++++");
 
-        //             /* 跳转到首页 */
-        //             window.location.href = "http://127.0.0.1/1910/32/jianke/src/html/home.html";
-        //         } else {
-        //             /* 注册失败： */
-        //             alert(response.msg);
-        //         }
-        //     }
-        // });
+                    /* 跳转到首页 */
+                    // window.location.href = "http://127.0.0.1/1910/32/jianke/src/html/home.html";
+                    alert("注册成功");
+                } else {
+                    /* 注册失败： */
+                    alert(response.msg);
+                }
+            }
+        });
     })
 
 

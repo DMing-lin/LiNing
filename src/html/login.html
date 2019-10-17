@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../sass/login.min.css">
+    <script src="../js/jquery-3.4.1.js"></script>
+    <script src="../js/captcha-mini.js"></script>
+    <script src="../js/login.js"></script>
+
+</head>
+
+<body>
+    <main>
+        <section>
+            <div class="loginWrapper">
+
+                <h3>会员登录</h3>
+
+                <div class="loginTabs">
+                    <ul>
+                        <li class="loginTabsItem active">账户登录</li>
+                        <li class="loginTabsItem">手机登录</li>
+                    </ul>
+                </div>
+
+                <div class="login">
+                    <!-- 账户登录 -->
+                    <div class="loginBy block">
+                        <!-- 注册名/手机号 -->
+                        <div class="line">
+                            <input class="ipt" type="text" maxlength="20" placeholder="用户名/手机号" autocomplete="off"
+                                id="usernameID">
+                        </div>
+
+                        <!-- 密码-->
+                        <div class="line">
+                            <input class="ipt" type="password" maxlength="20" placeholder="密码" id="passwordID">
+                        </div>
+
+                        <!-- 验证码-->
+                        <div class="line">
+                            <input class="ipt" type="text" maxlength="4" placeholder="验证码">
+                            <canvas width="105" height="35" id="captcha1"></canvas>
+                        </div>
+
+                        <div class="line"><span><a href="">找回密码？</a></span>
+                            <span><a class="newUser" href="">注册新用户</a></span>
+                        </div>
+                    </div>
+
+                    <!-- 手机登录 -->
+                    <div class="loginBy">
+                        <!-- 手机号 -->
+                        <div class="line">
+                            <input class="ipt" type="text" maxlength="11" placeholder="手机号" autocomplete="off">
+                        </div>
+
+                        <!-- 验证码-->
+                        <div class="line">
+                            <input class="ipt" type="text" maxlength="4" placeholder="验证码">
+                            <canvas width="105" height="35" id="captcha2"></canvas>
+                        </div>
+
+                        <!-- 动态密码-->
+                        <div class="line">
+                            <input class="ipt" type="text" maxlength="10" placeholder="动态密码">
+                        </div>
+
+                        <div class="line">
+                            <span class="clearfix"><a class="newUser" href="">注册新用户</a></span>
+                        </div>
+                    </div>
+
+                    <!-- 登录按钮 -->
+                    <div class="line"><a class="loginBtn">登录</a></div>
+
+                    <!-- 领券 -->
+                    <div><a class="lingquan" href="">领取微信支付代金券&gt;&gt;</a></div>
+
+                    <p>其他账号登录</p>
+
+                    <div class="otherLogin">
+                        <a href=""></a>
+                        <a href=""></a>
+                        <a href=""></a>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+</body>
+
+</html>
