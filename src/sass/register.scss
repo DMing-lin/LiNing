@@ -54,6 +54,13 @@ main {
                         }
                     }
 
+                    //图形验证码
+                    #captcha {
+                        position: absolute;
+                        right: 5px;
+                        top: 5px;
+                    }
+
                     //获取动态密码
                     #smsSend {
                         width: 116px;
@@ -90,7 +97,10 @@ main {
                 }
 
                 .tongyi {
-                    padding: 20px 0;
+                    height: 40px;
+                    line-height: 40px;
+                    padding-left: 5px;
+                    margin-bottom: 10px;
 
                     >p {
                         display: inline-block;
@@ -175,8 +185,9 @@ main {
                     background: #fff7e3 url(../img/error.png) no-repeat 10px 13px;
                     border-color: #f2ac00;
                     color: #808080;
-                    font-size: 12px;
+                    font-size: 14px;
                     display: none;
+                    line-height: 36px;
                 }
             }
         }

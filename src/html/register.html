@@ -8,6 +8,9 @@
     <title>Document</title>
     <link rel="stylesheet" href="../css/base.css">
     <link rel="stylesheet" href="../sass/register.min.css">
+    <script src="../js/jquery-3.4.1.js"></script>
+    <script src="../js/captcha-mini.js"></script>
+    <script src="../js/register.js"></script>
 
 </head>
 
@@ -21,18 +24,18 @@
 
                     <!-- 提示错误信息 -->
                     <div class="tips ipt">
-                        <p>4-40位字符，支持汉字、字母、非纯数字</p>
-                        <p>及"－"、"_"、"."、"@"组合</p>
+                        <p></p>
                     </div>
 
                     <!-- 输入用户名 -->
                     <div class="line">
-                        <input class="ipt" type="text" maxlength="100" placeholder="用户名">
+                        <input class="ipt" type="text" maxlength="100" placeholder="用户名" id="usernameID">
                     </div>
 
                     <!-- 设置密码 -->
                     <div class="line">
-                        <input class="ipt" type="password" maxlength="20" placeholder="请设置密码" autocomplete="off">
+                        <input class="ipt" type="password" maxlength="20" placeholder="请设置密码" autocomplete="off"
+                            id="passwordA">
                         <div class="pwdSafety">
                             <span class="safetyName">弱</span>
                             <span class="safetyRank"></span>
@@ -43,40 +46,42 @@
 
                     <!-- 确认密码 -->
                     <div class="line">
-                        <input class="ipt" type="password" maxlength="20" placeholder="请确认密码" autocomplete="off">
+                        <input class="ipt" type="password" maxlength="20" placeholder="请确认密码" autocomplete="off"
+                            id="passwordB">
                     </div>
 
                     <!-- 手机号 -->
                     <div class="line">
-                        <input class="ipt" type="text" maxlength="11" placeholder="验证手机">
+                        <input class="ipt" type="text" maxlength="11" placeholder="验证手机" id="phoneID">
                     </div>
 
                     <!-- 验证码 -->
                     <div class="line">
                         <input class="ipt" type="text" maxlength="4" placeholder="验证码">
+                        <canvas width="105" height="35" id="captcha"></canvas>
                     </div>
 
                     <!-- 输入手机动态密码 -->
                     <div class="line">
-                        <input class="ipt" type="text" maxlength="10" placeholder="动态密码">
+                        <input class="ipt" type="text" maxlength="10" placeholder="动态密码" id="msgCode">
                         <span id="smsSend">获取动态密码</span>
                     </div>
 
                     <!-- 邮箱 -->
                     <div class="line">
-                        <input class="ipt" type="text" maxlength="60" placeholder="邮箱">
+                        <input class="ipt" type="text" maxlength="60" placeholder="邮箱" id="emailID">
                     </div>
 
                     <!-- 同意服务协议 -->
                     <div class="tongyi">
                         <input type="checkbox" class="checkbox">
                         <p>阅读《<a href="">李宁官方网站服务协议</a>》
-                            <span id="agreement">*请阅读并勾选服务协议</span>
+                            <span id="agreement"></span>
                         </p>
                     </div>
 
                     <!-- 注册按钮 -->
-                    <div class="line"><a class="registerBtn" href="">会员注册</a></div>
+                    <div class="line"><a class="registerBtn">会员注册</a></div>
 
                     <!-- 领券 -->
                     <div><a class="lingquan" href="">领取微信支付代金券&gt;&gt;</a></div>
