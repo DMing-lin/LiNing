@@ -1,0 +1,283 @@
+[{
+    "tabs": ["跑步鞋", "休闲鞋", "篮球鞋", "服饰", "新品new"],
+    "list": [
+        [{
+            "src": ["https://cdns.lining.com/postsystem/docroot/images/goods/201906/487214/thumb_487214.jpg",
+                "https://cdns.lining.com/postsystem/docroot/images/goods/201906/487199/thumb_487199.jpg",
+                "https://cdns.lining.com/postsystem/docroot/images/goods/201907/494136/thumb_494136.jpg"
+            ],
+            "price": "¥359.00",
+            "title": "【2019新品】李…"
+        }, {
+            "src": ["https://cdns.lining.com/postsystem/docroot/images/goods/201905/480093/thumb_480093.jpg",
+                "https://cdns.lining.com/postsystem/docroot/images/goods/201905/480057/thumb_480057.jpg",
+                "https://cdns.lining.com/postsystem/docroot/images/goods/201905/480075/thumb_480075.jpg"
+            ],
+            "price": "¥179.00",
+            "title": "【2019新品】男…"
+        }, {
+            "src": ["https://cdns.lining.com/postsystem/docroot/images/goods/201809/426339/thumb_426339.jpg"],
+            "price": "¥139.00",
+            "title": "女子轻便耐磨减震跑…"
+        }, {
+            "src": ["https://cdns.lining.com/postsystem/docroot/images/goods/201907/495394/thumb_495394.jpg",
+                "https://cdns.lining.com/postsystem/docroot/images/goods/201907/495430/thumb_495430.jpg",
+                "https://cdns.lining.com/postsystem/docroot/images/goods/201907/495412/thumb_495412.jpg"
+            ],
+            "price": "¥279.00",
+            "title": "【2019新品】e…"
+        }, {
+            "src": ["https://cdns.lining.com/postsystem/docroot/images/goods/201907/489811/thumb_489811.jpg"],
+            "price": "¥219.00",
+            "title": "【2019新品】男…"
+        }, {
+            "src": ["https://cdns.lining.com/postsystem/docroot/images/goods/201906/488854/thumb_488854.jpg",
+                "https://cdns.lining.com/postsystem/docroot/images/goods/201907/490142/thumb_490142.jpg",
+                "https://cdns.lining.com/postsystem/docroot/images/goods/201907/490831/thumb_490831.jpg"
+            ],
+            "price": "¥199.00",
+            "title": "【2019新品】男…"
+        }, {
+            "src": ["https://cdns.lining.com/postsystem/docroot/images/goods/201901/452900/thumb_452900.jpg"],
+            "price": "¥179.00",
+            "title": "【2019新品】御…"
+        }, {
+            "src": ["https://cdns.lining.com/postsystem/docroot/images/goods/201910/509152/thumb_509152.jpg"],
+            "price": "¥439.00",
+            "title": "【2019新品】C…"
+        }, {
+            "src": ["https://cdns.lining.com/postsystem/docroot/images/goods/201910/509124/thumb_509124.jpg",
+                "https://cdns.lining.com/postsystem/docroot/images/goods/201909/503933/thumb_503933.jpg",
+                "https://cdns.lining.com/postsystem/docroot/images/goods/201908/500976/thumb_500976.jpg"
+            ],
+            "price": "¥499.00",
+            "title": "【2019新品】李…"
+        }, {
+            "src": ["https://cdns.lining.com/postsystem/docroot/images/goods/201910/509139/thumb_509139.jpg",
+                "https://cdns.lining.com/postsystem/docroot/images/goods/201910/508511/thumb_508511.jpg",
+                "https://cdns.lining.com/postsystem/docroot/images/goods/201909/507218/thumb_507218.jpg"
+            ],
+            "price": "¥539.00",
+            "title": "【2019新品】李…"
+        }],
+        [{
+            "src": ["https://cdns.lining.com/postsystem/docroot/images/goods/201905/480255/thumb_480255.jpg",
+                "https://cdns.lining.com/postsystem/docroot/images/goods/201905/480323/thumb_480323.jpg",
+                "https://cdns.lining.com/postsystem/docroot/images/goods/201905/480273/thumb_480273.jpg"
+            ],
+            "price": "¥399.00",
+            "title": "【2019新品】李…"
+        }, {
+            "src": ["https://cdns.lining.com/postsystem/docroot/images/goods/201905/480377/thumb_480377.jpg",
+                "https://cdns.lining.com/postsystem/docroot/images/goods/201905/480341/thumb_480341.jpg"
+            ],
+            "price": "¥399.00",
+            "title": "【2019新品】男…"
+        }, {
+            "src": ["https://cdns.lining.com/postsystem/docroot/images/goods/201908/497274/thumb_497274.jpg",
+                "https://cdns.lining.com/postsystem/docroot/images/goods/201908/497292/thumb_497292.jpg",
+                "https://cdns.lining.com/postsystem/docroot/images/goods/201908/497256/thumb_497256.jpg"
+            ],
+            "price": "¥539.00",
+            "title": "【2019新品】李…"
+        }, {
+            "src": ["https://cdns.lining.com/postsystem/docroot/images/goods/201907/493354/thumb_493354.jpg",
+                "https://cdns.lining.com/postsystem/docroot/images/goods/201907/493336/thumb_493336.jpg",
+                "https://cdns.lining.com/postsystem/docroot/images/goods/201907/493372/thumb_493372.jpg"
+            ],
+            "price": "¥599.00",
+            "title": "【2019新品】李…"
+        }, {
+            "src": ["https://cdns.lining.com/postsystem/docroot/images/goods/201807/409654/thumb_409654.jpg",
+                "https://cdns.lining.com/postsystem/docroot/images/goods/201907/490504/thumb_490504.jpg",
+                "https://cdns.lining.com/postsystem/docroot/images/goods/201807/409636/thumb_409636.jpg"
+            ],
+            "price": "¥599.00",
+            "title": "【2019新品】男…"
+        }, {
+            "src": ["https://cdns.lining.com/postsystem/docroot/images/goods/201907/490450/thumb_490450.jpg"],
+            "price": "¥199.00",
+            "title": "【2019新品】男…"
+        }, {
+            "src": ["https://cdns.lining.com/postsystem/docroot/images/goods/201907/493246/thumb_493246.jpg",
+                "https://cdns.lining.com/postsystem/docroot/images/goods/201907/493264/thumb_493264.jpg"
+            ],
+            "price": "¥179.00",
+            "title": "【2019新品】御…"
+        }, {
+            "src": ["https://cdns.lining.com/postsystem/docroot/images/goods/201910/509152/thumb_509152.jpg"],
+            "price": "¥439.00",
+            "title": "【2019新品】C…"
+        }, {
+            "src": ["https://cdns.lining.com/postsystem/docroot/images/goods/201910/509124/thumb_509124.jpg",
+                "https://cdns.lining.com/postsystem/docroot/images/goods/201909/503933/thumb_503933.jpg",
+                "https://cdns.lining.com/postsystem/docroot/images/goods/201908/500976/thumb_500976.jpg"
+            ],
+            "price": "¥499.00",
+            "title": "【2019新品】李…"
+        }, {
+            "src": ["https://cdns.lining.com/postsystem/docroot/images/goods/201910/509139/thumb_509139.jpg",
+                "https://cdns.lining.com/postsystem/docroot/images/goods/201910/508511/thumb_508511.jpg",
+                "https://cdns.lining.com/postsystem/docroot/images/goods/201909/507218/thumb_507218.jpg"
+            ],
+            "price": "¥539.00",
+            "title": "【2019新品】李…"
+        }],
+        [{
+            "src": ["https://cdns.lining.com/postsystem/docroot/images/goods/201906/487214/thumb_487214.jpg",
+                "https://cdns.lining.com/postsystem/docroot/images/goods/201906/487199/thumb_487199.jpg",
+                "https://cdns.lining.com/postsystem/docroot/images/goods/201907/494136/thumb_494136.jpg"
+            ],
+            "price": "¥359.00",
+            "title": "【2019新品】李…"
+        }, {
+            "src": ["https://cdns.lining.com/postsystem/docroot/images/goods/201905/480093/thumb_480093.jpg",
+                "https://cdns.lining.com/postsystem/docroot/images/goods/201905/480057/thumb_480057.jpg",
+                "https://cdns.lining.com/postsystem/docroot/images/goods/201905/480075/thumb_480075.jpg"
+            ],
+            "price": "¥179.00",
+            "title": "【2019新品】男…"
+        }, {
+            "src": ["https://cdns.lining.com/postsystem/docroot/images/goods/201809/426339/thumb_426339.jpg"],
+            "price": "¥139.00",
+            "title": "女子轻便耐磨减震跑…"
+        }, {
+            "src": ["https://cdns.lining.com/postsystem/docroot/images/goods/201907/495394/thumb_495394.jpg",
+                "https://cdns.lining.com/postsystem/docroot/images/goods/201907/495430/thumb_495430.jpg",
+                "https://cdns.lining.com/postsystem/docroot/images/goods/201907/495412/thumb_495412.jpg"
+            ],
+            "price": "¥279.00",
+            "title": "【2019新品】e…"
+        }, {
+            "src": ["https://cdns.lining.com/postsystem/docroot/images/goods/201907/489811/thumb_489811.jpg"],
+            "price": "¥219.00",
+            "title": "【2019新品】男…"
+        }, {
+            "src": ["https://cdns.lining.com/postsystem/docroot/images/goods/201906/488854/thumb_488854.jpg",
+                "https://cdns.lining.com/postsystem/docroot/images/goods/201907/490142/thumb_490142.jpg",
+                "https://cdns.lining.com/postsystem/docroot/images/goods/201907/490831/thumb_490831.jpg"
+            ],
+            "price": "¥199.00",
+            "title": "【2019新品】男…"
+        }, {
+            "src": ["https://cdns.lining.com/postsystem/docroot/images/goods/201901/452900/thumb_452900.jpg"],
+            "price": "¥179.00",
+            "title": "【2019新品】御…"
+        }, {
+            "src": ["https://cdns.lining.com/postsystem/docroot/images/goods/201910/509152/thumb_509152.jpg"],
+            "price": "¥439.00",
+            "title": "【2019新品】C…"
+        }, {
+            "src": ["https://cdns.lining.com/postsystem/docroot/images/goods/201910/509124/thumb_509124.jpg",
+                "https://cdns.lining.com/postsystem/docroot/images/goods/201909/503933/thumb_503933.jpg",
+                "https://cdns.lining.com/postsystem/docroot/images/goods/201908/500976/thumb_500976.jpg"
+            ],
+            "price": "¥499.00",
+            "title": "【2019新品】李…"
+        }, {
+            "src": ["https://cdns.lining.com/postsystem/docroot/images/goods/201910/509139/thumb_509139.jpg",
+                "https://cdns.lining.com/postsystem/docroot/images/goods/201910/508511/thumb_508511.jpg",
+                "https://cdns.lining.com/postsystem/docroot/images/goods/201909/507218/thumb_507218.jpg"
+            ],
+            "price": "¥539.00",
+            "title": "【2019新品】李…"
+        }],
+        [{
+            "src": ["https://cdns.lining.com/postsystem/docroot/images/goods/201905/480255/thumb_480255.jpg",
+                "https://cdns.lining.com/postsystem/docroot/images/goods/201905/480323/thumb_480323.jpg",
+                "https://cdns.lining.com/postsystem/docroot/images/goods/201905/480273/thumb_480273.jpg"
+            ],
+            "price": "¥399.00",
+            "title": "【2019新品】李…"
+        }, {
+            "src": ["https://cdns.lining.com/postsystem/docroot/images/goods/201905/480377/thumb_480377.jpg",
+                "https://cdns.lining.com/postsystem/docroot/images/goods/201905/480341/thumb_480341.jpg"
+            ],
+            "price": "¥399.00",
+            "title": "【2019新品】男…"
+        }, {
+            "src": ["https://cdns.lining.com/postsystem/docroot/images/goods/201908/497274/thumb_497274.jpg",
+                "https://cdns.lining.com/postsystem/docroot/images/goods/201908/497292/thumb_497292.jpg",
+                "https://cdns.lining.com/postsystem/docroot/images/goods/201908/497256/thumb_497256.jpg"
+            ],
+            "price": "¥539.00",
+            "title": "【2019新品】李…"
+        }, {
+            "src": ["https://cdns.lining.com/postsystem/docroot/images/goods/201907/493354/thumb_493354.jpg",
+                "https://cdns.lining.com/postsystem/docroot/images/goods/201907/493336/thumb_493336.jpg",
+                "https://cdns.lining.com/postsystem/docroot/images/goods/201907/493372/thumb_493372.jpg"
+            ],
+            "price": "¥599.00",
+            "title": "【2019新品】李…"
+        }, {
+            "src": ["https://cdns.lining.com/postsystem/docroot/images/goods/201807/409654/thumb_409654.jpg",
+                "https://cdns.lining.com/postsystem/docroot/images/goods/201907/490504/thumb_490504.jpg",
+                "https://cdns.lining.com/postsystem/docroot/images/goods/201807/409636/thumb_409636.jpg"
+            ],
+            "price": "¥599.00",
+            "title": "【2019新品】男…"
+        }, {
+            "src": ["https://cdns.lining.com/postsystem/docroot/images/goods/201907/490450/thumb_490450.jpg"],
+            "price": "¥199.00",
+            "title": "【2019新品】男…"
+        }, {
+            "src": ["https://cdns.lining.com/postsystem/docroot/images/goods/201907/493246/thumb_493246.jpg",
+                "https://cdns.lining.com/postsystem/docroot/images/goods/201907/493264/thumb_493264.jpg"
+            ],
+            "price": "¥179.00",
+            "title": "【2019新品】御…"
+        }, {
+            "src": ["https://cdns.lining.com/postsystem/docroot/images/goods/201910/509152/thumb_509152.jpg"],
+            "price": "¥439.00",
+            "title": "【2019新品】C…"
+        }, {
+            "src": ["https://cdns.lining.com/postsystem/docroot/images/goods/201910/509124/thumb_509124.jpg",
+                "https://cdns.lining.com/postsystem/docroot/images/goods/201909/503933/thumb_503933.jpg",
+                "https://cdns.lining.com/postsystem/docroot/images/goods/201908/500976/thumb_500976.jpg"
+            ],
+            "price": "¥499.00",
+            "title": "【2019新品】李…"
+        }, {
+            "src": ["https://cdns.lining.com/postsystem/docroot/images/goods/201910/509139/thumb_509139.jpg",
+                "https://cdns.lining.com/postsystem/docroot/images/goods/201910/508511/thumb_508511.jpg",
+                "https://cdns.lining.com/postsystem/docroot/images/goods/201909/507218/thumb_507218.jpg"
+            ],
+            "price": "¥539.00",
+            "title": "【2019新品】李…"
+        }]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    ]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}]

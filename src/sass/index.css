@@ -1,15 +1,301 @@
-.banner .carousel-indicators li {
+main {
+  min-width: 1280px;
+}
+
+main .banner .carousel-indicators li {
   width: 240px;
   height: 20px;
   color: #ffffff;
   background-color: rgba(0, 0, 0, 0.8);
 }
 
-.banner .carousel-indicators li .active {
+main .banner .carousel-indicators li .active {
   background-color: rgba(238, 39, 55, 0.8);
 }
 
-.banner a[class^="carousel-control"] span {
+main .banner a[class^="carousel-control"] span {
   width: 50px;
   height: 50px;
+}
+
+main section .newthing {
+  width: 100%;
+  background: url(../img/newthingBg.jpg) no-repeat center top;
+  padding-top: 130px;
+}
+
+main section .newthing .showNew {
+  width: 1000px;
+  height: 375px;
+  margin: 0 auto;
+  background: pink;
+  overflow: hidden;
+  position: relative;
+}
+
+main section .newthing .showNew ul {
+  width: 1000px;
+  display: flex;
+}
+
+main section .newthing .showNew ul li {
+  width: 330px;
+  height: 350px;
+  background: url(../img/showNewfy.png) no-repeat center;
+  background-size: 99%;
+  flex-shrink: 0;
+}
+
+main section .newthing .showNew ul li:nth-child(2) {
+  background-image: url(../img/showNewgl.png);
+}
+
+main section .newthing .showNew ul li:nth-child(3) {
+  background-image: url(../img/showNewxy.png);
+}
+
+main section .newthing .showNew ul li:nth-child(4) {
+  background-image: url(../img/showNewzg.png);
+}
+
+main section .newthing .showNew ul li:nth-child(5) {
+  background-image: url(../img/showNewfy.png);
+}
+
+main section .newthing .showNew ul li:nth-child(6) {
+  background-image: url(../img/showNewgl.png);
+}
+
+main section .newthing .showNew span {
+  width: 50px;
+  height: 85px;
+  position: absolute;
+  top: 130px;
+  cursor: pointer;
+  background: blue;
+  opacity: .3;
+}
+
+main section .newthing .showNew .showNewL {
+  left: -80px;
+}
+
+main section .newthing .showNew .showNewR {
+  right: -80px;
+}
+
+main section .parisFashion {
+  width: 100%;
+  height: 1245px;
+  padding-top: 90px;
+  background: url(../img/parisFashion.jpg) no-repeat center top;
+}
+
+main section .parisFashion > div {
+  width: 1140px;
+  height: 255px;
+  box-sizing: border-box;
+}
+
+main section .parisFashion .paris {
+  margin: 0 auto;
+}
+
+main section .parisFashion .paris a {
+  display: block;
+  width: 567px;
+  height: 255px;
+  float: left;
+  margin-right: 3px;
+}
+
+main section .parisFashion .personality {
+  margin: 98px auto 0;
+}
+
+main section .parisFashion .personality a {
+  display: block;
+  width: 376px;
+  height: 253px;
+  float: left;
+  margin-right: 4px;
+  margin-bottom: 6px;
+}
+
+main section .fiveVanueWrapper {
+  width: 100%;
+  background-color: #EBEBEB;
+}
+
+main section .fiveVanueWrapper .fiveVanue {
+  width: 1250px;
+  height: 225px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+main section .fiveVanueWrapper .fiveVanue a {
+  display: block;
+  width: 140px;
+  height: 200px;
+  margin: 5px 55px;
+}
+
+main section .fiveVanueWrapper .fiveVanue a img {
+  position: relative;
+}
+
+main section .fiveVanueWrapper .fiveVanue a:hover {
+  color: #ED2737;
+}
+
+main section .under5 {
+  width: 100%;
+  height: 120px;
+  background-color: #FFFFFF;
+}
+
+main section .hotStyleWrapper {
+  width: 100%;
+  height: 660px;
+  background-color: #EBEBEB;
+  padding-top: 45px;
+}
+
+main section .hotStyleWrapper h2 {
+  width: 100%;
+  text-align: center;
+  height: 33px;
+  line-height: 33px;
+  font-size: 32px;
+  color: #747474;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+main section .hotStyle {
+  width: 1195px;
+  height: 525px;
+  margin: 0 auto;
+}
+
+main section .hotStyle .hotStyleTabs {
+  width: 30px;
+  float: left;
+}
+
+main section .hotStyle .hotStyleTabs a {
+  display: block;
+  padding: 24px 4px;
+  margin-bottom: 2px;
+  font-size: 12px;
+  text-align: center;
+  color: #ffffff;
+  background-color: #5E5E5E;
+}
+
+main section .hotStyle .hotStyleTabs .active {
+  background-color: #ed2736;
+}
+
+main section .hotStyle .hotStyleList {
+  width: 1160px;
+  height: 525px;
+  float: right;
+  background: #ffffff;
+  display: none;
+}
+
+main section .hotStyle .hotStyleList li {
+  display: block;
+  width: 230px;
+  height: 260px;
+  border: 1px solid #EBEBEB;
+  position: relative;
+}
+
+main section .hotStyle .hotStyleList li .hotStyleListC a {
+  display: block;
+  width: 160px;
+  height: 160px;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+main section .hotStyle .hotStyleList li .hotStyleListC a img {
+  position: absolute;
+  display: none;
+}
+
+main section .hotStyle .hotStyleList li .hotStyleListR {
+  position: absolute;
+  top: 10px;
+  right: 5px;
+}
+
+main section .hotStyle .hotStyleList li .hotStyleListR img {
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+}
+
+main section .hotStyle .hotStyleList li .hotStyleListR img:hover {
+  border: 1px solid #EBEBEB;
+}
+
+main section .hotStyle .hotStyleList li .hotStyleListFooter {
+  width: 190px;
+  height: 46px;
+  position: absolute;
+  right: 22px;
+  bottom: 10px;
+  background: url(../img/clickBuy.jpg) no-repeat right;
+}
+
+main section .louWrapper {
+  width: 100%;
+  height: 90px;
+  background: #000000;
+}
+
+main section .louWrapper .lou {
+  width: 900px;
+  margin: 0 auto;
+}
+
+main section .louWrapper .lou li {
+  width: 178px;
+  height: 90px;
+  background: url(../img/lou_logo_01.png) no-repeat top center;
+  text-align: center;
+  color: #ffffff;
+  line-height: 155px;
+}
+
+main section .louWrapper .lou li:hover {
+  background-color: red;
+}
+
+main section .F1Wrapper {
+  width: 100%;
+  height: 795px;
+  background: #D9D9D9 url(../img/loucengbg.jpg) no-repeat top;
+  padding-top: 245px;
+}
+
+main section .F2 {
+  background-image: url(../img/loucengbg2.jpg);
+}
+
+main section .F3 {
+  background-image: url(../img/loucengbg3.jpg);
+}
+
+main section .F4 {
+  background-image: url(../img/loucengbg4.jpg);
+}
+
+main section .F5 {
+  background-image: url(../img/loucengbg5.jpg);
 }

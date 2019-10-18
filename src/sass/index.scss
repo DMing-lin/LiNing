@@ -1,19 +1,324 @@
-.banner {
-    .carousel-indicators {
-        li {
-            width: 240px;
-            height: 20px;
-            color: #ffffff;
-            background-color: rgba(0, 0, 0, 0.8);
+$indexBgColor:#EBEBEB;
 
-            .active {
-                background-color: rgba(238, 39, 55, 0.8);
+main {
+    min-width: 1280px;
+
+    //轮播图
+    .banner {
+        .carousel-indicators {
+            li {
+                width: 240px;
+                height: 20px;
+                color: #ffffff;
+                background-color: rgba(0, 0, 0, 0.8);
+
+                .active {
+                    background-color: rgba(238, 39, 55, 0.8);
+                }
             }
+        }
+
+        a[class^="carousel-control"] span {
+            width: 50px;
+            height: 50px;
         }
     }
 
-    a[class^="carousel-control"] span {
-        width: 50px;
-        height: 50px;
+    section {
+
+        //新品发售
+        .newthing {
+            width: 100%;
+            background: url(../img/newthingBg.jpg) no-repeat center top;
+            padding-top: 130px;
+
+            .showNew {
+                width: 1000px;
+                height: 375px;
+                margin: 0 auto;
+                background: pink;
+                overflow: hidden;
+                position: relative;
+
+                ul {
+                    width: 1000px;
+                    display: flex;
+                    // overflow: hidden;
+
+                    li {
+                        width: 330px;
+                        height: 350px;
+                        background: url(../img/showNewfy.png) no-repeat center;
+                        background-size: 99%;
+                        flex-shrink: 0;
+
+                        &:nth-child(2) {
+                            background-image: url(../img/showNewgl.png);
+                        }
+
+                        &:nth-child(3) {
+                            background-image: url(../img/showNewxy.png);
+                        }
+
+                        &:nth-child(4) {
+                            background-image: url(../img/showNewzg.png);
+                        }
+
+                        &:nth-child(5) {
+                            background-image: url(../img/showNewfy.png);
+                        }
+
+                        &:nth-child(6) {
+                            background-image: url(../img/showNewgl.png);
+                        }
+                    }
+                }
+
+                span {
+                    width: 50px;
+                    height: 85px;
+                    position: absolute;
+                    top: 130px;
+                    cursor: pointer;
+                    background: blue;
+                    opacity: .3;
+                }
+
+                .showNewL {
+                    left: -80px;
+                }
+
+                .showNewR {
+                    right: -80px;
+                }
+            }
+        }
+
+        //巴黎时尚周
+        .parisFashion {
+            width: 100%;
+            height: 1245px;
+            padding-top: 90px;
+            background: url(../img/parisFashion.jpg) no-repeat center top;
+
+            >div {
+                width: 1140px;
+                height: 255px;
+                box-sizing: border-box;
+            }
+
+            .paris {
+                margin: 0 auto;
+
+                a {
+                    display: block;
+                    width: 567px;
+                    height: 255px;
+                    float: left;
+                    margin-right: 3px;
+                }
+            }
+
+            .personality {
+                margin: 98px auto 0;
+
+                a {
+                    display: block;
+                    width: 376px;
+                    height: 253px;
+                    float: left;
+                    margin-right: 4px;
+                    margin-bottom: 6px;
+                }
+            }
+        }
+
+        //5场馆
+        .fiveVanueWrapper {
+            width: 100%;
+            background-color: $indexBgColor;
+
+            .fiveVanue {
+                width: 1250px;
+                height: 225px;
+                margin: 0 auto;
+                text-align: center;
+
+                a {
+                    display: block;
+                    width: 140px;
+                    height: 200px;
+                    margin: 5px 55px;
+
+                    img {
+                        position: relative;
+                    }
+
+                    &:hover {
+                        color: #ED2737;
+                    }
+                }
+            }
+        }
+
+        //白条
+        .under5 {
+            width: 100%;
+            height: 120px;
+            background-color: #FFFFFF;
+        }
+
+        //hot style 爆款推荐
+        .hotStyleWrapper {
+            width: 100%;
+            height: 660px;
+            background-color: $indexBgColor;
+            padding-top: 45px;
+
+            h2 {
+                width: 100%;
+                text-align: center;
+                height: 33px;
+                line-height: 33px;
+                font-size: 32px;
+                color: #747474;
+                font-weight: bold;
+                margin-bottom: 40px;
+            }
+        }
+
+        .hotStyle {
+            width: 1195px;
+            height: 525px;
+            margin: 0 auto;
+
+            .hotStyleTabs {
+                width: 30px;
+                float: left;
+
+                a {
+                    display: block;
+                    padding: 24px 4px;
+                    margin-bottom: 2px;
+                    font-size: 12px;
+                    text-align: center;
+                    color: #ffffff;
+                    background-color: #5E5E5E;
+                }
+
+
+                .active {
+                    background-color: #ed2736;
+                }
+            }
+
+            .hotStyleList {
+                width: 1160px;
+                height: 525px;
+                float: right;
+                background: #ffffff;
+                display: none;
+
+                li {
+                    display: block;
+                    width: 230px;
+                    height: 260px;
+                    border: 1px solid $indexBgColor;
+                    position: relative;
+
+                    .hotStyleListC {
+                        a {
+                            display: block;
+                            width: 160px;
+                            height: 160px;
+                            position: absolute;
+                            top: 20px;
+                            left: 20px;
+
+                            img {
+                                position: absolute;
+                                display: none;
+
+                            }
+                        }
+                    }
+
+                    .hotStyleListR {
+                        position: absolute;
+                        top: 10px;
+                        right: 5px;
+
+                        img {
+                            width: 35px;
+                            height: 35px;
+                            cursor: pointer;
+
+                            &:hover {
+                                border: 1px solid $indexBgColor;
+                            }
+                        }
+                    }
+
+                    .hotStyleListFooter {
+                        width: 190px;
+                        height: 46px;
+                        position: absolute;
+                        right: 22px;
+                        bottom: 10px;
+                        background: url(../img/clickBuy.jpg) no-repeat right;
+                    }
+
+                }
+            }
+        }
+
+        .louWrapper {
+            width: 100%;
+            height: 90px;
+            background: #000000;
+
+            .lou {
+                width: 900px;
+                margin: 0 auto;
+
+                li {
+                    width: 178px;
+                    height: 90px;
+                    background: url(../img/lou_logo_01.png) no-repeat top center;
+                    text-align: center;
+                    color: #ffffff;
+                    line-height: 155px;
+
+                    &:hover {
+                        background-color: red;
+                    }
+                }
+            }
+        }
+
+        .F1Wrapper {
+            width: 100%;
+            height: 795px;
+            background: #D9D9D9 url(../img/loucengbg.jpg) no-repeat top;
+            padding-top: 245px;
+        }
+
+        .F2 {
+            background-image: url(../img/loucengbg2.jpg);
+        }
+
+        .F3 {
+            background-image: url(../img/loucengbg3.jpg);
+        }
+
+        .F4 {
+            background-image: url(../img/loucengbg4.jpg);
+        }
+
+        .F5 {
+            background-image: url(../img/loucengbg5.jpg);
+        }
+
     }
+
 }
