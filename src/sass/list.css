@@ -29,9 +29,23 @@ main section article header {
   margin-bottom: 20px;
 }
 
+main section article .sort {
+  width: 100%;
+  height: 60px;
+  background-color: #F0F0F0;
+  line-height: 60px;
+}
+
+main section article .sort span {
+  background-color: #EE2737;
+  cursor: pointer;
+  padding: 5px;
+  margin-left: 10px;
+}
+
 main section article .thingsListWrapper {
   width: 100%;
-  height: 1350px;
+  height: 1250px;
 }
 
 main section article .thingsListWrapper #thingList li {
@@ -75,8 +89,19 @@ main section article .thingsListWrapper #thingList li > div span {
   right: 5px;
 }
 
-main section article .page {
+main section article .pages {
   width: 100%;
   height: 60px;
+  text-align: right;
+  line-height: 60px;
   background-color: #F0F0F0;
+}
+
+main section article .pages a {
+  margin-right: 20px;
+  padding: 3px;
+}
+
+main section article .pages .active {
+  background-color: #e71B33;
 }
