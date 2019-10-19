@@ -33,9 +33,9 @@ $(() => {
     }
 
     function renderUI(data) {
-        console.log(data);
+        // console.log(data);
 
-        let html = data.map((ele) => `<li data-guid="${ele.uid}"><img src="${ele.img}" alt=""><div><p>${ele.name}</p><span>￥ ${ele.price}.00</span></div></li>`).join('');
+        let html = data.map((ele) => `<li data-id="${ele.uid}"><img src="${ele.img}" alt=""><div><p>${ele.name}</p><span>￥ ${ele.price}.00</span><div class="addCart">加入购物车</div></div></li>`).join('');
         $("#thingList").html(html);
     }
 
@@ -49,6 +49,45 @@ $(() => {
     $(".typeBtn").click(function () {
         getDataWithPage(1, $(this).index());
     })
+
+    /* 实现点击添加商品到购物车的功能 */
+    $("#thingList").on("click", ".addCart", function () {
+        /* 获取当前商品的ID */
+        let good_id = $(this).parents("li").data().id;
+        /* 发送网络请求把当前数据添加到购物车表中 */
+        /* 数据库表 cart_id  good_id  num isChecked */
+        /* 添加数据： */
+        /* 删除数据： */
+        /* 更新数据： */
+        $.ajax({
+            url: "../server/cart.php",
+            data: {
+                type: "add",
+                good_id: good_id
+            },
+            dataType: "json",
+            success: function (response) {
+                if (response.status == "success") {
+                    $(".cart_total").text($(".cart_total").text() * 1 + 1);
+                }
+            }
+        });
+    })
+
+    /* 发请求获取购物车中商品的数量 */
+    $.ajax({
+        url: "../server/getTotalCount.php",
+        dataType: "json",
+        success: function ({
+            total
+        }) {
+            // console.log(total);
+            $(".cart_total").text(total);
+        }
+    });
+
+    /* 打开购物车页面 */
+    $(".cart").click(() => window.location.href = "./cart.html");
 
 
 

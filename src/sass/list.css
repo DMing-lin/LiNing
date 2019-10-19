@@ -77,7 +77,7 @@ main section article .thingsListWrapper #thingList li > div p {
   position: absolute;
   top: 5px;
   left: 5px;
-  font-size: 20px;
+  font-size: 16px;
 }
 
 main section article .thingsListWrapper #thingList li > div span {
@@ -86,7 +86,16 @@ main section article .thingsListWrapper #thingList li > div span {
   font-weight: bold;
   position: absolute;
   bottom: 5px;
-  right: 5px;
+  left: 5px;
+}
+
+main section article .thingsListWrapper #thingList li > div .addCart {
+  background-color: #e71B33;
+  font-size: 16px;
+  font-weight: bold;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
 }
 
 main section article .pages {
@@ -104,4 +113,22 @@ main section article .pages a {
 
 main section article .pages .active {
   background-color: #e71B33;
+}
+
+main section article .cart {
+  width: 50px;
+  height: 120px;
+  background-color: #e71B33;
+  text-align: center;
+  position: fixed;
+  top: 40%;
+  right: 50px;
+  cursor: pointer;
+}
+
+main section article .cart > p {
+  width: 38px;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 5px;
 }
