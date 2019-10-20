@@ -1,4 +1,8 @@
 @charset "UTF-8";
+main {
+  margin-top: 73px;
+}
+
 main section {
   width: 100%;
   background-color: #eeefef;

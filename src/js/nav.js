@@ -5,4 +5,6 @@ $(() => {
             manager1.init();
         });
     });
+
+    $(".navListWrapper a").click(() => window.location.href = "./list.html")
 })

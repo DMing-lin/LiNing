@@ -1,4 +1,5 @@
 <?php
+header("Content-Type: text/html; charset=utf-8");
 # 通过type来区别数据库操作的类型：
 # type = add  添加
 # type = del  删除
@@ -7,6 +8,7 @@
 # type = get    获取
 
 $db = mysqli_connect("127.0.0.1", "root", "", "lining");
+// mysqli_query($db,"set names 'utf8'");
 $type = $_REQUEST["type"];
 if($type == "add")
 {

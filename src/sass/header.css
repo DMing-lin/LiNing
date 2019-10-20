@@ -1,17 +1,21 @@
-header {
+.header header {
   width: 100%;
   height: 23px;
   padding-top: 7px;
   font-size: 12px;
   text-align: center;
+  background-color: #ffffff;
+  position: fixed;
+  top: 0;
+  z-index: 9999 !important;
 }
 
-header .headerL {
+.header header .headerL {
   margin-left: 25px;
   float: left;
 }
 
-header .headerL h1 {
+.header header .headerL h1 {
   width: 95px;
   height: 15px;
   background: url(../img/lining.png) no-repeat;
@@ -21,19 +25,19 @@ header .headerL h1 {
   top: 2px;
 }
 
-header .headerL .shoppingCart {
+.header header .headerL .shoppingCart {
   display: block;
   text-align: right;
   width: 40px;
   background: url(../img/shopping_cart.png) no-repeat;
 }
 
-header .headerR {
+.header header .headerR {
   float: right;
   margin-right: 55px;
 }
 
-header .shu {
+.header header .shu {
   width: 1px;
   height: 16px;
   background: #565656;
@@ -45,6 +49,9 @@ nav {
   height: 50px;
   font-size: 14px;
   background-color: #020202;
+  position: fixed;
+  top: 23px;
+  z-index: 9999 !important;
 }
 
 nav .nav .logo {
@@ -130,10 +137,13 @@ nav .navR .search span > a {
 
 .navListWrapper {
   width: 100%;
-  height: 310px;
+  height: 350px;
   padding-top: 45px;
   background: #F6F6F6;
   display: none;
+  position: fixed;
+  top: 73px;
+  z-index: 9999 !important;
 }
 
 .navListWrapper .navList {

@@ -1,4 +1,7 @@
 $(() => {
+    $(".header").load("./header.html");
+    $("footer").load("./footer.html");
+
     new Promise(function (resolve, reject) {
         $.ajax({
             type: "get",
@@ -89,6 +92,18 @@ $(() => {
     /* 打开购物车页面 */
     $(".cart").click(() => window.location.href = "./cart.html");
 
+
+
+
+    /* 点击图片跳转相应详情页并传递参数*/
+    $("#thingList").on("click", "img", function () {
+        let picsrc = $(this).attr('src');
+        let name = $(this).next().children("p").text();
+        let price = $(this).next().children("span").text();
+
+        let url = "./goods.html?name=" + name + "&price=" + price + "&picsrc=" + picsrc;
+        window.location.href = url;
+    })
 
 
 

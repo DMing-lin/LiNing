@@ -1,4 +1,6 @@
 $(() => {
+    $(".header").load("./header.html");
+    $("footer").load("./footer.html");
 
     /* 测试数据 */
     $("#usernameID").val("dddd");

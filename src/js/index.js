@@ -1,4 +1,6 @@
 $(() => {
+    $(".header").load("./header.html");
+    $("footer").load("./footer.html");
     // $(".showNewL").click(function () {
     //     $(".showNew").children().eq(0).animate({
     //         left: "-=330px"
@@ -121,7 +123,7 @@ $(() => {
 
 
 
-   
+
 
 
 

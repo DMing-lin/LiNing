@@ -1,4 +1,7 @@
 $(() => {
+    $(".header").load("./header.html");
+    $("footer").load("./footer.html");
+    
     // 点击切换
     $(".loginTabsItem").click(function () {
         /* 设置当前标签选中，并且排它处理 */
